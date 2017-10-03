@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: teal;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Enver Creek</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Main</li>
+      <li>Clubs</li>
+      <li>Departments</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>Welcome</h1>
+    <p>Enver Creek has good teachers</p>
+    <p>Enver Creek is a school in Surrey,BC.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Contact Us:604-543-8149 </p>
+</div>
+
+</body>
+</html>
