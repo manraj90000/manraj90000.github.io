@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+}
+
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+
+.content img {
+	width: 300px;
+    height: 200px;
+    float: right:
+    }
+
+
+
+.content {
+    width: 75%;
+}
+.more {
+  float: right;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: teal;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Enver Creek</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Main</li>
+      <li>Clubs</li>
+      <li>Departments</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+
+    <h1>math</h1>
+
+    <p>math is inportant </p>
+    <p>math will help you in life</p>
+          	<img src="http://www.cashsmarter.com/wp-content/uploads/2015/11/maths-ftr.jpg">
+  </div>
+  
+   <div class="column content more">
+    <h1>english</h1>
+    <p>english is a great class</p>
+    <p>Enver Creek is a school in Surrey,BC.</p>
+          <img src=https://valuablevoices.files.wordpress.com/2013/04/wdlwordle2.jpg       </div>
+        
+<div class="footer">
+  <p>Contact Us:604-543-8149 </p>
+</div>
+
+</body>
+</html>
